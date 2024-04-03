@@ -1,0 +1,119 @@
+body {
+    font-family: georgia, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: mediumturquoise;
+    color:red;
+    padding: 20px;
+    text-align: center;
+/*    box-shadow: 0px 5px;*/
+    
+}
+
+header h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 5px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    padding: 5px;
+
+
+}
+nav ul li :hover{
+        color: orangered;
+        font-size: 20px;
+        transition: transform 0.3;
+    }
+/*nav ul li:active{
+        color: blue;
+        font-size: 20px;
+    }*/
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.w {
+    text-align: center;
+    font-size: 30px;
+    font-style: arial;
+    color: maroon;
+    padding: 10px;
+}
+
+.banner {
+    background-image: url('banner.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.rooms {
+    padding: 50px 20px;
+    text-align: center;
+    font-size: 15px;
+    color: black;
+}
+
+.rooms h3{
+    font-size: 22px;
+}
+
+.rooms button{
+    
+    padding: 10px;
+    border-radius: 8px;
+     background-color: mediumturquoise;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+
+}
+
+.rooms button:hover{
+    color: floralwhite;
+    
+}
+
+.rooms p{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.room {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+.room img {
+    width: 600%;
+    max-width: 500px;
+}
+
+.room h3{
+     font-size: 22px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
